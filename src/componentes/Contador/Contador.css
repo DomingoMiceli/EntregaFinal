@@ -1,0 +1,67 @@
+.contador-container {
+	display: inline-flex;
+	align-items: center;
+	border: 1px solid black;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.contador-container button {
+	background-color: #d3d3d3;
+	transition: background-color 0.3s ease;
+	border: none;
+	padding: 10px 15px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.contador-container button:hover {
+	background-color: #bebebe;
+}
+
+.contador-container strong {
+	padding: 0 15px;
+	font-size: 18px;
+}
+
+.contador-container button:first-child {
+	border-right: 1px solid black;
+}
+
+.contador-container button:last-child {
+	border-left: 1px solid black;
+}
+
+.contador-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.agregar-carrito {
+	margin-top: 10px;
+	padding: 10px 15px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.agregar-carrito:hover {
+	background-color: #45a049;
+}
+
+.boton-seguir-comprando {
+	margin-top: 10px;
+	padding: 10px 15px;
+	background-color: #d3d3d3;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.boton-seguir-comprando:hover {
+	background-color: #bebebe;
+}

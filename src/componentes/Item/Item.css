@@ -1,0 +1,44 @@
+.cardProductos {
+	justify-content: flex-end;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 30rem;
+	border-radius: 5px;
+	overflow: hidden;
+	padding: 12px 9px;
+	background-color: #fff;
+	margin: 20px;
+}
+
+.cardProductos img {
+	max-width: 65%;
+	height: auto;
+}
+
+.cardProductos button {
+	background-color: rgb(62, 60, 60);
+	color: #fafafa;
+	font-size: 1.2rem;
+	border-radius: 10px;
+	border: none;
+	padding: 10px 20px;
+}
+
+.boton-detalles {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #d3d3d3;
+	color: #333;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: bold;
+	text-align: center;
+	transition: background-color 0.3s ease;
+}
+
+.boton-detalles:hover {
+	background-color: #bebebe;
+}

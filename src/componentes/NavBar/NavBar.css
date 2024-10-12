@@ -1,0 +1,30 @@
+header {
+	display: flex;
+	width: 100%;
+	top: 0;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgb(83, 83, 83);
+}
+
+.logo {
+	width: 150px;
+	object-fit: contain;
+}
+
+li {
+	display: inline-block;
+	margin: 0 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.nav-link {
+	font-family: "Roboto", sans-serif;
+	color: #f9f9f9;
+}
+
+.nav-link:hover {
+	color: #cccccc;
+	transition: color 0.3s ease;
+}
