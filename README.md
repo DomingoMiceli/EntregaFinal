@@ -61,6 +61,10 @@ npm run dev
 
 5. Abre tu navegador y visita http://localhost:5173 para ver la aplicación en funcionamiento.
 
+## Deploy
+
+Puedes acceder a la aplicación desplegada desde el siguiente enlace: [sportdm-final.vercel.app](https://sportdm-final.vercel.app/)
+
 ## Uso
 
 Una vez que la aplicación esté en funcionamiento, podrás explorar los productos disponibles, agregarlos al carrito de compras y realizar una orden de compra.
